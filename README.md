@@ -2,7 +2,17 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18450593&assignment_repo_type=AssignmentRepo)
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
-
+1) Version Control System (VCS) : is a software tool that helps to manage changes to code, documents, or other digital contents over time.
+2)Repository (Repo) : is the central location where all the files, history, and metadata of a project are stored.
+3) Commit : is a snapshot of changes made to the code or files at a particular point in time. Each commit has a unique identifier, author, date, and message.
+4) Branching : allows multiple versions of the codebase to coexist, enabling developers to work on different features or bug fixes independently.
+5) Merging : integrates changes from one branch into another, resolving any conflicts that may arise.
+6) Checkout : retrieves a specific version of the codebase from the repository, allowing developers to work on that version.
+7) Push and Pull : Push sends local changes to the remote repository, while pull retrieves changes from the remote repository and merges them into the local copy.
+8) Conflict resolution : involves resolving differences between competing changes to the same code or files.
+9) Tags : mark specific points in the commit history, often used to identify releases or milestones.
+10) History : of a repository contains a record of all commits, allowing developers to track changes and understand the evolution of the project.
+ GitHub is a popular tool for managing versions of code because 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
