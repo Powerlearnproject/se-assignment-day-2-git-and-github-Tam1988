@@ -62,11 +62,34 @@ Disadvantages : Public repositories face high security risks because anyone can 
 Private repositories reduce diversity of projects because contributions are limited to only authorised users who might sometimes not be versatile.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
-
+The steps involved when i made my first commit to a Github repository
+1) I first of all did a Git configuration by using windows powershell to type git config --global user.name "Tam1988" and git config --global user.email "tamaraajaluwa@gmail.com". I pressed enter for the both of them to complete the configuration; then I typed this command (Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser) on windows powershell so that I wouldn't get errors, then I pressed enter
+2) The next thing I did was create a Github repository
+3) Then the next thing I did was create a folder on my PC on which I was going to create my new code
+4) Then I opened the Visual Studio Code app on my PC
+5) On the top left of the app I clicked on file and then selected open folder inorder to select the new folder I created on my PC for new codes
+6) Once the folder was selected, on the left of it, I clicked on New file and created a New file;then called it Tamara.py
+7) Then I wrote (Print("Hello World"))
+8) The next thing I did was to click on the three dots on the top left corner to open terminal and then a new terminal
+9) I then began initialization of Git by typing the command (git init) then presed enter                                                                                                                           
+10) The next thing I did was to type (giit add .) then pressed enter
+11) Then the next thing I typed was (git commit -m "This was awesome") then pressed enter
+12) Then the next thing I typed was (git remote add origin " https://github.com/Tam1988/newrepo.git") then pressed enter
+13) Then the next thing I typed was (git push -u origin master) then pressed enter
+Commits are git commands which create snapshots that stage changes with a message, save changes you've made to your code and also track the history of those changes.
+Commits help in tracking changes and managing different versions of my projects by creating a record of changes, versions and updates to my codes.
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
-
+Branching in Git works when you tell Git to create a secondary repository by taking a snapshot of your master repository.
+Branching is an important feature for collaborative development on GitHub because it enables multiple developers working together on a particular project to work independently on new versions and features of the psoftware, experiment with new ideas, work on extended bug fixes and manage different features without conflict.
+In a typical workflow, the process goes like this;
+1) Create a branch : this can be done by typing (git branch new-feature)
+2) Switch to the branch : this can be done by typing git (checkout new-feature)
+3) Make changes and commit them : this can be done by typing (git commit -m "Add awesome new feature"
+4) Merge the changes back into the main branch : this can be done by typing (git merge new-feature)
+5) Push the changes to Github : this can be done by typing (git push origin main)
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
-
+The role of pull requests in the Github workflow is to enable developers working on a single repository to be able to pull a particular version down and all the commits from that particular repository.
+Pull requests facilitate code review and collaboration by providing a transparent and interractive platform for developers to examine, discuss and approve changes to softwares.
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
