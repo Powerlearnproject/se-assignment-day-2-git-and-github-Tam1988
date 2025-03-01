@@ -90,8 +90,21 @@ In a typical workflow, the process goes like this;
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 The role of pull requests in the Github workflow is to enable developers working on a single repository to be able to pull a particular version down and all the commits from that particular repository.
 Pull requests facilitate code review and collaboration by providing a transparent and interractive platform for developers to examine, discuss and approve changes to softwares.
+The steps involved in creating a pull request are as follows;  
+1) Make changes : Make changes to the code in a feature branch.
+2) Commit changes : Commit changes with meaningful commit messages.
+3) Push changes : Push changes to a Github repository. 
+4) Create a pull request : Go to the repository and click "New pull request".
+5) Select the branch : Select the master branch you want to merge into. 
+6) Compare changes : Compare the changes between your branch and the master branch.
+7) Create the pull request : Create the pull request and add a meaningful title and description.
+The steps involved in merging a pull request are as follows;
+1) Merge changes : Merge the changes from the pull request into the master branch.
+2) Resolve conflicts : Resolve any conflicts that arise during the merge process.
+3) Verify changes : Verify that the changes were merged correctly.
+4) Close the pull request : Close the pull request.
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
-
+"forking" a repository on GitHub 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
