@@ -2,6 +2,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18450593&assignment_repo_type=AssignmentRepo)
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
+The fundamental concepts of version control are explained as follows;
 1) Version Control System (VCS) : is a software tool that helps to manage changes to code, documents, or other digital contents over time.
 2)Repository (Repo) : is the central location where all the files, history, and metadata of a project are stored.
 3) Commit : is a snapshot of changes made to the code or files at a particular point in time. Each commit has a unique identifier, author, date, and message.
